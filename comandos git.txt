@@ -25,3 +25,9 @@ git config --global alias.s "status"
 //modificar  mensaje del commit (git commit -m "nueva modificacion al ndex")
 git commit --amend -m "Nueva Modificacion al Index"
 
+// modificar un archivo que se adjunto con un commit 
+(git commit -m "Se agrego principal.html")
+git mv principal.html princ.html
+
+
+
