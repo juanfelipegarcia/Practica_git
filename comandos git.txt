@@ -21,3 +21,7 @@ git log
 
 //Para poner alias a los comandos.
 git config --global alias.s "status"
+
+//modificar  mensaje del commit (git commit -m "nueva modificacion al ndex")
+git commit --amend -m "Nueva Modificacion al Index"
+
