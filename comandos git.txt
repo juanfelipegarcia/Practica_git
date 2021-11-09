@@ -19,4 +19,5 @@ gif checkout .
 //Para  ver el historico de cambios en el repositorio
 git log
 
-//
+//Para poner alias a los comandos.
+git config --global alias.s "status"
