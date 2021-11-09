@@ -29,5 +29,18 @@ git commit --amend -m "Nueva Modificacion al Index"
 (git commit -m "Se agrego principal.html")
 git mv principal.html princ.html
 
+//Remover un archivo
+git rm princ.html
+
+//Volver a un commit anterior
+git reset --soft c4bda0c5ac0cd6e7edd0208a2af3fc3018e3d91f
+
+//optener los archivos hechos al volver a un commit
+git reset --hard c7b7e72af32b1f2a8b1ac3ad31fac0a52d9813c0
+
+//Como ver todos los commit (auque se hallan eliminado)
+git reflog
+
+
 
 
