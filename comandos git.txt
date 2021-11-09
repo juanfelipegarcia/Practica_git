@@ -62,3 +62,4 @@ git branch -d nueva_funcionalidad
 
 //Creacion de nueva rama y paso a ella
 git checkout -b rama_opcion
+
