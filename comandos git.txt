@@ -1,0 +1,22 @@
+// Para inicial Git
+git init
+
+// para  conocer el estatus
+git status
+
+// para Adjuntar en el  stage(zona intermediaria a la espera de la confirmacion)
+git add .
+
+// Para agregar confirmado
+git commit -m "primer commit"
+
+// Para mostrar la diferencia  que se confirmo.
+gif diff
+
+// Para volver al ultimo commit
+gif checkout .
+
+//Para  ver el historico de cambios en el repositorio
+git log
+
+//
