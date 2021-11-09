@@ -34,7 +34,7 @@ git mv principal.html princ.html
 git rm princ.html
 
 //Volver a un commit anterior
-git reset --soft c4bda0c5ac0cd6e7edd0208a2af3fc3018e3d91f
+git reset --soft
 
 //optener los archivos hechos al volver a un commit
 git reset --hard c7b7e72af32b1f2a8b1ac3ad31fac0a52d9813c0
@@ -45,6 +45,20 @@ git reflog
 //Archivos para  gitignore segun su lenguaje
 Gitignores: https://github.com/github/gitignore
 
+//Crear una Rama
+git branch nueva_funcionalidad
 
+// Para ver la  rama que se creo nueva
+git log --oneline --decorate --all --graph
 
+//Para Cambio de rama
+git checkout nueva_funcionalidad
 
+//Unir la rama master con  rana creada
+git merge nueva_funcionalidad
+
+//Eliminacion de rama
+git branch -d nueva_funcionalidad
+
+//Creacion de nueva rama y paso a ella
+git checkout -b rama_opcion
