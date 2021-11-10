@@ -63,3 +63,17 @@ git branch -d nueva_funcionalidad
 //Creacion de nueva rama y paso a ella
 git checkout -b rama_opcion
 
+// etiquetas creacion 
+git tag version_de_prueba
+
+// borrar etiquetas
+git tag -d version_de_prueba
+
+//etiqueta con mensaje
+git tag -a v1.0.0 -m "Version inicial"
+
+//etiqueta en un commit en especial
+git tag -a v0.0.0 c148591 -m "Version Beta"
+
+
+
